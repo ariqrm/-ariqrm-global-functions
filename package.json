@@ -1,0 +1,15 @@
+{
+  "name": "@ariqrm/global-functions",
+  "version": "0.1.0",
+  "description": "This package will handle any function",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "ariqrm",
+  "license": "MIT"
+}
