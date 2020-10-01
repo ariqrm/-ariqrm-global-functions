@@ -1,5 +1,5 @@
 {
-  "name": "@ariqrm/global-functions",
+  "name": "@ariqrmorg/global-functions",
   "version": "0.1.0",
   "description": "This package will handle any function",
   "main": "index.js",
@@ -11,5 +11,13 @@
     "npm"
   ],
   "author": "ariqrm",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariqrm/-ariqrm-global-functions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ariqrm/-ariqrm-global-functions/issues"
+  },
+  "homepage": "https://github.com/ariqrm/-ariqrm-global-functions#readme"
 }
