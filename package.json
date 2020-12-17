@@ -1,6 +1,6 @@
 {
   "name": "@ariqrmorg/global-functions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This package will handle any function",
   "main": "index.js",
   "scripts": {
