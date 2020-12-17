@@ -22,10 +22,12 @@ module.exports.formatMoney =(number,places,symbol,thousand,decimal)=>{
 }
 
 module.exports.toCurrency =(number,decimal)=>{
-  let money
-  number = parseFloat(number);
-  money = this.formatMoney(number, decimal);
-  return money;
+  const strNumber = (number+'')
+  const getLengthplaces = strNumber.includes('.')?strNumber.split('.')[1].length:2
+  const money = this.formatMoney(parseFloat(number), getLengthplaces);
+  const moneyIndexOf = money.indexOf(',');
+  const coma = decimal<=0?moneyIndexOf:moneyIndexOf+1+decimal
+  return `${money}${'0'.repeat(coma)}`.slice(0,coma);
 }
 
 module.exports.validateEmail = (email)=>{
